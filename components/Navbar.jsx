@@ -1,8 +1,9 @@
-'use client';
+/* eslint-disable quotes */
 
-import { motion } from 'framer-motion';
-import styles from '../styles';
-import { navVariants } from '../utils/motion';
+"use client";
+
+import { motion } from "framer-motion";
+import { navVariants } from "../utils/motion";
 
 const Navbar = () => (
   <motion.nav
@@ -13,9 +14,7 @@ const Navbar = () => (
   >
     <div className="absolute w-1/2 inset-0 gradient-01  " />
     <div className="w-full 2xl:max-w-[1280px] flex mx-auto justify-between gap-8 ">
-      <img src="/search.svg" alt="search"
-        className="w-6 h-6 object-contain"
-      />
+      <img src="/search.svg" alt="search" className="w-6 h-6 object-contain" />
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white ">
         METAVERSUS
       </h2>
