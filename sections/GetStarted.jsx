@@ -1,10 +1,10 @@
+/* eslint-disable quotes */
+
 "use client";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
-import styles from "../styles";
 import { fadeIn, planetVariants, staggerContainer } from "../utils/motion";
-import { exploreWorlds, startingFeatures } from "../constants";
+import { startingFeatures } from "../constants";
 import { StartSteps } from "../components";
 
 const GetStarted = () => (
@@ -33,9 +33,9 @@ const GetStarted = () => (
           {" "}
           Get Started With <br /> Just a Few <br /> Clicks{" "}
         </p>
-        {startingFeatures.map((item, index) => {
-          return <StartSteps key={index} number={index} title={item} />;
-        })}
+        {startingFeatures.map((item, index) => (
+          <StartSteps key={index} number={index} title={item} />
+        ))}
       </motion.div>
     </motion.div>
   </section>

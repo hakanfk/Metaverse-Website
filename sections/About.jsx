@@ -1,7 +1,8 @@
+/* eslint-disable quotes */
+
 "use client";
 
 import { motion } from "framer-motion";
-import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
 
 const About = () => (
@@ -22,7 +23,7 @@ const About = () => (
       </motion.p>
       <motion.p
         variants={fadeIn("up", "tween", 0.6, 1)}
-        className="text-secondary-white text-[18px] font-normal mx-6 text-center md:mx-[400px] mt-6 "
+        className="text-secondary-white text-[18px] font-normal mx-6 text-center lg:mx-[400px] mt-6 "
       >
         To help you get a sense of how vague and complex a term “the metaverse”
         can be, here's an exercise: Mentally replace the phrase “the metaverse”

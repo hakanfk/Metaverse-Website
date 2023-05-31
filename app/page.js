@@ -1,5 +1,6 @@
-import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+/* eslint-disable quotes */
+import { Footer, Navbar } from "../components";
+import { About, Explore, GetStarted, Hero, World } from "../sections";
 
 const Page = () => (
   <div className="bg-primary-black h-vw overflow-hidden ">

@@ -1,10 +1,9 @@
+/* eslint-disable quotes */
+
 "use client";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
-import styles from "../styles";
 import { fadeIn, staggerContainer } from "../utils/motion";
-import { exploreWorlds } from "../constants";
 
 const World = () => (
   <section className="px-12 py-6 relative z-10">
